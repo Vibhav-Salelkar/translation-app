@@ -1,8 +1,8 @@
 :root {
     --primary:  #F2C94C;
 }
-body {
-    font-family: 'Kalam', cursive;;
+body{
+    font-family: 'Kalam', cursive;
     max-width: 100%;
 }
 *{
@@ -20,4 +20,30 @@ header h1{
     font-size: 1.5rem;
     font-style: italic;
     font-weight: 400;
+}
+section{
+    margin: 1rem 2rem;
+}
+section textarea{
+    width:100%;
+}
+textarea::placeholder{
+    font-size: 1.1rem;
+    margin: 1rem 1rem;
+    font-family: 'Kalam', cursive;
+    font-style: italic;
+}
+.input button{
+    background-color: var(--primary);
+    border: none;
+    padding: 1rem 2rem;
+    font-family: 'Kalam', cursive;
+    font-style: italic;
+    margin: 0.5rem 0;
+    font-size:1.1rem;
+}
+.output p{
+    margin: 0.5rem 0 0.5rem 0;
+    font-family: 'Kalam', cursive;
+    font-style: italic;
 }

@@ -1,4 +1,4 @@
-#Banana Talk
+# Banana Talk
 This is basic Translation app to understand the use case of fetch method.
 
 Tech Stack:
